@@ -1,6 +1,4 @@
-const cache = {
-
-};
+const cache = {};
 
 function death() {
     const now = Date.now();
