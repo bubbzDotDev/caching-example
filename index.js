@@ -21,7 +21,7 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(
       JSON.stringify({
-        data: "Hello World!",
+        data: "Try paths '/goat0', '/goat1', and '/goat2'!",
       })
     );
   }
