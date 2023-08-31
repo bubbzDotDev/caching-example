@@ -1,5 +1,5 @@
 const http = require("node:http");
-const art = require("./getArt.js");
+const art = require("./art.js");
 const getFromCache = require("./cacher.js");
 
 // Create a local server to receive data from
